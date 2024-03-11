@@ -1,0 +1,225 @@
+/* header */
+.header-global {
+	display: flex;
+	margin: 0 10%;
+	background-color: white;
+	padding: 20px 0;
+	font-family: 'Nunito';
+	font-size: 29px;
+}
+.header-global-first {
+	margin-right: 7%;
+}
+.header-global-second {
+	opacity: 50%;
+}
+/* electronic */
+.electronic-global {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	display: flex;
+	background-color: rgba(104, 116, 220, 0.07);
+}
+.electronic-global-second {
+	width: 60%;
+}
+.electronic-global-second img {
+	width: 100%;
+}
+.electronic-global-first-dart {
+	font-family: 'Nunito';
+	font-weight: bold;
+	color: #27292e;
+	font-size: 68px;
+}
+.electronic-global-first {
+	width: 40%;
+	padding-top: 5%;
+}
+.electronic-global-first-game {
+	margin-bottom: 5%;
+}
+.electronic-global-first-number {
+	font-family: 'Nunito';
+	font-weight: 400;
+	color: #27292e;
+	font-size: 68px;
+}
+.electronic-global-first-game {
+	font-family: 'Nunito';
+	font-weight: 400;
+	color: #585c65;
+	font-size: 25px;
+}
+/* CSS button */
+.button-50 {
+	appearance: button;
+	background-color: #6874dc;
+	background-image: none;
+	border: 1px solid #6874dc;
+	box-shadow: #fff 14px 14px 0 0, #6874dc 14px 14px 0 1px;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Nunito';
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 34px;
+	margin: 0 5px 10px 0;
+	overflow: visible;
+	padding: 22px 40px;
+	text-align: center;
+	text-transform: none;
+	touch-action: manipulation;
+	user-select: none;
+	-webkit-user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.button-50:focus {
+	text-decoration: none;
+}
+
+.button-50:hover {
+	text-decoration: none;
+}
+
+.button-50:active {
+	box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+	outline: 0;
+}
+
+.button-50:not([disabled]):active {
+	box-shadow: #fff 2px 2px 0 0, #6874dc 2px 2px 0 1px;
+	transform: translate(2px, 2px);
+}
+/* develop */
+.develop-main-logical {
+	background-color: white;
+	padding: 2% 2%;
+	font-family: 'Nunito';
+	font-size: 28px;
+	font-weight: bold;
+	width: 25%;
+}
+.develop-main {
+	background-color: rgba(229, 229, 229, 1);
+	padding: 5% 8%;
+	display: flex;
+	justify-content: space-between;
+}
+.develop-main-logical-img img {
+	position: absolute;
+	margin-top: -63px;
+	margin-left: -131px;
+}
+/* dart */
+.dart-main-first {
+	width: 50%;
+	/* display: flex; */
+}
+.dart-main-first-flechegame {
+	width: 50%;
+}
+.dart-main-first-flechegame img {
+	width: 138%;
+}
+.dart-main-first-fleche {
+	width: 50%;
+}
+.dart-main-first-fleche img {
+	width: 346px;
+	position: absolute;
+	margin-left: 313px;
+	margin-top: -424px;
+}
+.dart-main-second-text-header {
+	font-family: 'Nunito';
+	font-weight: bold;
+	font-size: 38px;
+}
+.dart-main-second-text-content {
+	font-family: 'Nunito';
+	font-size: 28px;
+	padding-right: 7%;
+}
+.dart-main-second-carre img {
+	position: absolute;
+	top: 97%;
+	left: 45%;
+}
+.dart-main-second {
+	width: 50%;
+}
+.dart-main {
+	background-color: #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5%;
+}
+/* footer */
+.footer {
+	background-color: #e5e5e5;
+	padding: 4% 0;
+}
+.footer-content {
+	background-color: rgba(104, 116, 220, 0.07);
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	height: 272px;
+}
+.footer-content-header {
+	font-family: 'Nunito';
+	font-size: 50px;
+	font-weight: bold;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.footer-content-text {
+	font-family: 'Nunito';
+	font-size: 20px;
+	padding-bottom: 2%;
+}
+.footer-content-form {
+	display: flex;
+	justify-content: center;
+}
+.footer-content-form-input {
+	display: flex;
+}
+.footer-content-form-input-first input {
+	height: 50px;
+	border: none;
+	padding-left: 10px;
+	border-right: 0, 5px solid;
+}
+.footer-content-form-button button {
+	padding: 0 17px;
+	font-weight: bold;
+	font-size: 19px;
+	border: none;
+	height: 52px;
+	font-family: 'Nunito';
+	color: white;
+	background-color: #6874dd;
+}
+.footer-content-form-input-second input {
+	height: 50px;
+	border: none;
+	border-left: 0, 5px solid;
+	padding-left: 10px;
+}
+/* .footer-content-form-input-first input::placeholder {
+	padding-left: 10px;
+	color: red;
+} */
+/* media */
+@media (min-width: 768px) {
+	.button-50 {
+		padding: 12px 50px;
+	}
+}
